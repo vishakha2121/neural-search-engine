@@ -21,7 +21,302 @@ htmlcov/
 .tox/
 .mypy_cache/
 .dmypy.json
-dm
+dmypy.json
+*.cover
+.hypothesis/
+*.mo
+*.pot
+*.log
+*.pid
+*.pid.lock
+*.seed
+*.pid.lock
+*.cfg
+*.ini
+*.conf
+
+# ============================
+# Distribution / Packaging
+# ============================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-wheel-metadata/
+share/python-wheels/
+
+# ============================
+# Environment Variables
+# ============================
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+.env.test
+.env.staging
+*.env
+!example.env
+
+# ============================
+# IDE / Editor
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+*.iws
+*.ipr
+.settings/
+.project
+.classpath
+*.code-workspace
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/libraries/
+.idea/caches/
+.idea/modules.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/dataSources.xml
+.idea/dataSources.ids
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/gradle.xml
+.idea/runConfigurations.xml
+.idea/inspectionProfiles/
+*.sublime-project
+*.sublime-workspace
+.ftpconfig
+.project
+.settings
+*.komodoproject
+.komodotools
+*.bk
+*.tmp
+*.temp
+
+# ============================
+# Node / Frontend
+# ============================
+frontend/node_modules/
+frontend/.pnp/
+frontend/.pnp.js
+frontend/build/
+frontend/dist/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.next/
+frontend/out/
+frontend/.cache/
+frontend/coverage/
+frontend/.eslintcache
+frontend/.prettiercache
+frontend/.stylelintcache
+frontend/.vercel
+frontend/.netlify
+frontend/.output
+frontend/.nuxt
+frontend/.svelte-kit
+frontend/.hugo_build.lock
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+frontend/.npm
+frontend/.yarn
+frontend/.yarnrc
+frontend/.yarnignore
+frontend/.pnp.*
+frontend/.parcel-cache
+frontend/.cache-loader
+frontend/dist/
+frontend/static/
+frontend/.docusaurus
+frontend/.stencil
+frontend/build-storybook
+frontend/public/assets/
+frontend/src/service-worker.js
+frontend/src/sw.js
+frontend/storybook-static/
+
+# ============================
+# Data & Index Files
+# ============================
+backend/data/
+backend/logs/
+backend/uploads/
+backend/temp/
+backend/static/
+backend/media/
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.ldb
+*.log
+*.lck
+*.wal
+*.shm
+*.pid
+*.idx
+*.fidx
+*.colbert
+*.index
+faiss_index/
+colbert_index/
+embeddings/
+vectors/
+*.npy
+*.npz
+*.h5
+*.pkl
+*.pickle
+*.joblib
+*.model
+*.weights
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+*.savedmodel
+
+# ============================
+# Database
+# ============================
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+database/migrations/*.pyc
+database/__pycache__/
+database/backups/
+*.dump
+*.backup
+*.sql.bak
+pg_hba.conf
+postgresql.conf
+postgresql.auto.conf
+
+# ============================
+# Docker
+# ============================
+*.log
+*.pid
+*.pid.lock
+.dockerignore
+docker-compose.override.yml
+docker-compose.prod.yml
+.docker/
+docker/data/
+docker/volumes/
+docker/tmp/
+*.container
+*.image
+*.tar.gz
+
+# ============================
+# OS / System
+# ============================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.tmp
+*.temp
+*.swp
+*.swo
+*.~*
+~$*
+*.bak
+*.cache
+*.thumb
+*.desktop
+*.lnk
+*.localized
+*.com.apple.*
+*.AppleDouble
+*.LSOverride
+Icon?
+__MACOSX/
+.VolumeIcon.icns
+com.apple.timemachine.donotpresent
+.SymbolicLink
+.directory
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# ============================
+# Secrets / Security
+# ============================
+*.pem
+*.key
+*.crt
+*.csr
+*.pub
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.truststore
+*.secret
+*.token
+*.credentials
+*.auth
+secrets/
+keys/
+certs/
+credentials/
+.aws/
+.gcloud/
+.azure/
+.terraform/
+*.password
+*.secret
+*.api_key
+*.api-key
+api_keys.json
+credentials.json
+service-account.json
+oauth2.json
+
+# ============================
+# Testing / Coverage
+# ============================
+.pytest_cache/
+
 
 
 
